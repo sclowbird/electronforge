@@ -11,7 +11,7 @@
     "publish": "electron-forge publish",
     "lint": "eslint --ext .ts .",
     "pack": "electron-builder --dir",
-    "dist": "electron-builder build -w"
+    "dist": "electron-builder -w"
   },
   "keywords": [],
   "author": {
@@ -84,7 +84,7 @@
     "babel-loader": "^8.2.2",
     "css-loader": "^5.2.6",
     "electron": "13.0.1",
-    "electron-builder": "^22.10.4",
+    "electron-builder": "^21.2.0",
     "eslint": "^7.27.0",
     "eslint-plugin-import": "^2.23.3",
     "fork-ts-checker-webpack-plugin": "^6.2.10",
